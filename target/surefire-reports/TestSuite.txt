@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 2, Errors: 0, Skipped: 12, Time elapsed: 10.809 sec <<< FAILURE! - in TestSuite
+validateFlightCheckboxes(test.UnitedAirlinesTest)  Time elapsed: 6.638 sec  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <input type="checkbox" id="award" name="AwardTravel" aria-label="Book with miles" class="app-components-BookFlightForm-bookFlightForm__customCheckbox--2Wd21"> is not clickable at point (407, 265). Other element would receive the click: <label for="award">...</label>
+  (Session info: chrome=102.0.5005.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Chriskalys-MacBook-Pro.local', ip: '2601:240:cd02:a059:4095:312:ce64:3d08%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.4', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.61, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/jb/b_pd3zds2sv...}, goog:chromeOptions: {debuggerAddress: localhost:51794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 575f99e4f72a8c91b9473951cf0e05fc
+	at test.UnitedAirlinesTest.validateFlightCheckboxes(UnitedAirlinesTest.java:93)
+
+teardown(test.UnitedAirlinesTest)  Time elapsed: 6.639 sec  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false]
+
